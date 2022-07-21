@@ -17,16 +17,52 @@ Elements of lists can be changed, tuples cannot.
 
 - How to get last element of a list?
 
-my_list[-1]
+```my_list[-1]```
 
 
-- Is my object oriented language or procedure oriented?
+- Is python object oriented language or procedure oriented?
+
+- What will be the output of this?
+```python
+def product(a,b):
+    return a*b
+
+def product(a,b,c):
+    return a,b,c
+
+print(product(2,3))
+```
+Since the function name is same, python will consider the later one and throw an error because it expects 3 arguments but only 2 are given.
+
+- What is deep and shallow copy?
+
+- What is faster, list or tuple?
+
+- What are local and global variables?
+
+- What are OOP concepts in python?
+
+Encapsulation- This puts restrictions on accessing variables and methods directly and can prevent the accidental modification of data.
+
+Abstraction- Hides code.
+
+Polymorphism- Python allows different classes to have methods with the same name.
+
+Inheritance- capability of one class to derive or inherit the properties from another class)
 
 ----------------------------------
 ## Flask
 - When would you use flask and when django?
 
 - What is cacheing in flask?
+
+- What are HTTP methods?
+
+GET, POST, PUT, PATCH, DELETE
+
+- Difference between POST and PUT?
+
+- What are sessions?
 
 ----------------------------------
 ## SQL
