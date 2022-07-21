@@ -38,6 +38,8 @@ Since the function name is same, python will consider the later one and throw an
 
 - What is faster, list or tuple?
 
+Tuple. List stores each element in vairable one by one, tuple stores the whole thing in one go.
+
 - What are local and global variables?
 
 - What are OOP concepts in python?
@@ -49,6 +51,15 @@ Abstraction- Hides code.
 Polymorphism- Python allows different classes to have methods with the same name.
 
 Inheritance- capability of one class to derive or inherit the properties from another class)
+
+- What will be the output of:
+```
+first= [1,2,3]
+second= first
+second.append(4)
+print(first)
+```
+[1,2,3,4] since both variable are stored in same memory location, updating one updates the other. To prevent this, do ```second= first.copy()```
 
 ----------------------------------
 ## Flask
@@ -102,3 +113,4 @@ For any neural network, the last layer will be a dense layer with number of node
 
 - What is cross validation?
 
+- Why Use Ensemble Learning?
