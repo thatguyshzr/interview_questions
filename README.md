@@ -123,3 +123,8 @@ GROUPBY subject_name
 - - <u>n_estimators</u>- number of trees in the forest
 - - <u>max_features</u>- number of features to consider when looking for the best split
 - - <u>max_depth</u>- maximum depth of the tree
+
+10) To get better result from your ML model, what can you do?
+- Change the parameters of the model or add more data.\
+Changing parameters is a better option since adding more data with bad parameters means data doesn't get trained in the best way.\
+(There are more methods to improve a model but this answer was relevant to the project in my resume.)
