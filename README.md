@@ -1,8 +1,6 @@
 # Interview Questions
 List of questions I've been asked during interviews. They usually ask about projects in my resume, but here are questions that apply to everyone.
 
-If any answer is wrong or if there's a better way to answer it, create a pull request.
-
 * [Python](#python)
 * [Flask](#flask)
 * [SQL](#sql)
