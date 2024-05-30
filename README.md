@@ -120,6 +120,8 @@ GROUPBY subject_name
 7) Why Use Ensemble Learning?
 
 8) Difference between recall and precision.
+- Precision: when the model predicts, how often does it predict correctly.
+- Recall: does the model predict everytime it should have.
 
 9) What are the parameters of random forest?
 - 3 mains parameters are:
