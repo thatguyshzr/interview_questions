@@ -66,7 +66,6 @@ print(first)
 12) Count the occurrence of each character in a string. Input = 'hello'. Output = h-1,e-1,l-2,o-1
 
 13) How to find missing values in a dataset?
-- ```pd.isnull(df['col_name'])```
 
 ----------------------------------
 ## Flask
