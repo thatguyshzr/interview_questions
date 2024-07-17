@@ -4,7 +4,8 @@ List of questions I've been asked during interviews. They usually ask about proj
 * [Python](#python)
 * [Flask](#flask)
 * [SQL](#sql)
-* [Data Science](#data-science)
+* [Machine Learning](#machine-learning)
+* [Deep Learning](#deep-learning)
 
 ----------------------------------
 ## Python
@@ -105,11 +106,10 @@ GROUPBY subject_name
 - <u>Group by</u> used to group the rows that have the same value. <u>Order by</u> sorts the result-set in ascending or descending order.
 
 ----------------------------------
-## Data Science
+## Machine Learning
 1) What are the advantages of Decision Tree/Random forest?
 
-2) What is the last layer of a yolo model?
-- For any neural network, the last layer will be a dense layer with number of nodes = number of classes to detect.
+2) Linrear regression for feature importance.
 
 3) What are the assumptions of a linear regressions?
 
@@ -135,3 +135,14 @@ GROUPBY subject_name
 - Change the parameters of the model or add more data.\
 Changing parameters is a better option since adding more data with bad parameters means data doesn't get trained in the best way.\
 (There are more methods to improve a model but this answer was relevant to the project in my resume.)
+
+11) How to deal with imbalanced data?
+
+12) What are Regularization techniques. What are L1 and L2 regularization?
+
+13) How to fix overfitting?
+
+----------------------------------
+## Deep Learning
+2) What is the last layer of a yolo model?
+- For any neural network, the last layer will be a dense layer with number of nodes = number of classes to detect.
