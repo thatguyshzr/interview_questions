@@ -80,6 +80,8 @@ print(first)
 
 4) What are sessions?
 
+5) How to create API with flask?
+
 ----------------------------------
 ## SQL
 (Interviewing for Python developer or Data Scientist)
@@ -142,7 +144,35 @@ Changing parameters is a better option since adding more data with bad parameter
 
 13) How to fix overfitting?
 
+14) Ways to detect outliers?
+
+15) What is gradient descent?
+
 ----------------------------------
 ## Deep Learning
-2) What is the last layer of a yolo model?
+1) What is the last layer of a yolo model?
 - For any neural network, the last layer will be a dense layer with number of nodes = number of classes to detect.
+
+2) Yolo structure.
+
+3) What is CNN (convolution neural network)? CNN architecture.
+
+4) What are anchor points in yolo?
+
+5) Does yolo structure has maxpooling?
+
+6) How to augment images?
+
+7) What are better ways to label augmented data?
+
+8) What are checkpoints in tensorflow yolo?
+
+9) Can shapley be used for DNN?
+
+10) What are epochs? How to decide number of epochs?
+
+11) What is the structure of LSTM?
+
+12) In LSTM, what is gradient clipping and gradient explosion?
+
+13) What are the concepts of GenAI?
