@@ -6,6 +6,7 @@ List of questions I've been asked during interviews. They usually ask about proj
 * [SQL](#sql)
 * [Machine Learning](#machine-learning)
 * [Deep Learning](#deep-learning)
+* [GenAI](#genai)
 
 ----------------------------------
 ## Python
@@ -148,6 +149,14 @@ Changing parameters is a better option since adding more data with bad parameter
 
 15) What is gradient descent?
 
+16) Feature reduction steps?
+
+17) What is stationarity in time series?
+
+18) What are (p,d,q) in arima model?
+
+19) What is F1 score and why is it called so?
+
 ----------------------------------
 ## Deep Learning
 1) What is the last layer of a yolo model?
@@ -175,4 +184,26 @@ Changing parameters is a better option since adding more data with bad parameter
 
 12) In LSTM, what is gradient clipping and gradient explosion?
 
-13) What are the concepts of GenAI?
+13) Resnet (residual network) architecture?
+
+14) What makes YOLO faster than other models?
+
+15) Segment Anything Model (SAM)
+
+----------------------------------
+## GenAI
+1) What are the concepts of GenAI?
+
+2) What are RAG (retrieval augmentated generation) models?
+
+3) IP adaptors.
+
+4) Few shot or zero shot models.
+
+5) CLIP.
+
+6) VLM (visual language models).
+
+7) Semantic search.
+
+
