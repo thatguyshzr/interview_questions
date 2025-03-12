@@ -69,6 +69,27 @@ print(first)
 
 13) How to find missing values in a dataset?
 
+14) Sort e_list based on age.
+```
+    class Employee:
+        def __init__(self, name, age):
+            self.age= age
+            self.name= name
+            
+    e_list= [Employee('a', 25),
+            Employee('b', 22),
+            Employee('c', 26),
+            Employee('d', 21),
+            Employee('e', 20)]
+```
+A14) 
+```
+    sorted_e_list = sorted(e_list, key=lambda employee: employee.age)
+
+    for employee in sorted_e_list:
+        print(f"Name: {employee.name}, Age: {employee.age}")
+```
+
 ----------------------------------
 ## Flask
 1) What is cacheing in flask?
