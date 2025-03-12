@@ -82,12 +82,28 @@ print(first)
             Employee('d', 21),
             Employee('e', 20)]
 ```
-A14) 
+A14.
 ```
     sorted_e_list = sorted(e_list, key=lambda employee: employee.age)
 
     for employee in sorted_e_list:
         print(f"Name: {employee.name}, Age: {employee.age}")
+```
+
+15) Write a function to sort this list with minimum number of swaps: a= [10, 3, 1, 6, 7, 2]
+```
+def func(l):
+    sor= list(set(a))  # create a sorted list to compare nos
+    
+    while l!=sor:    # keep sorting each element until list is same as sorted list
+        for i in range(len(sor)):
+            if l[0]==sor[i]:
+                position= i
+                break
+
+        l[0], l[i]= l[i], l[0]
+    
+    return l
 ```
 
 ----------------------------------
