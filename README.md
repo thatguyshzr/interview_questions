@@ -194,6 +194,8 @@ Changing parameters is a better option since adding more data with bad parameter
 
 19) What is F1 score and why is it called so?
 
+20) Difference between parameters and hyper-parameters?
+
 ----------------------------------
 ## Deep Learning
 1) What is the last layer of a yolo model?
@@ -227,6 +229,10 @@ Changing parameters is a better option since adding more data with bad parameter
 
 15) Segment Anything Model (SAM)
 
+16) Why are activation functions used?
+
+17) Why is CNN used for images as opposed to text or numeric data?
+
 ----------------------------------
 ## GenAI
 1) What are the concepts of GenAI?
@@ -243,4 +249,5 @@ Changing parameters is a better option since adding more data with bad parameter
 
 7) Semantic search.
 
-
+8) How to evaluate a LLM model?
+- One way is to use RAGAS
